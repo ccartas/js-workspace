@@ -107,5 +107,29 @@ employees.christmasCosts = () => {
 
 console.log(employees.christmasCosts());
 
+let c1 = new Course('Tehnologii Web', 8);
+let c2 = new Course('JAVA', 9);
+let c3 = new Course('C++', 7);
+let c4 = new Course('SDD', 5);
+let c5 = new Course('Baze de date', 8);
 
+let courses = [
+    c1,
+    c2,
+    c3,
+    c4,
+    c5
+];
+let stud = new Student('Popa',
+                 'Gigel',
+                 'Calea Dorobanti Nr.68',
+                  courses);
 
+stud.getGrades();
+console.log(stud.toString());
+stud.retakeExam('SDD',1);
+stud.retakeExam('C++',1);
+stud.getGrades();
+stud.retakeExam('JAVA', 2);
+stud.getGrades();
+ 
