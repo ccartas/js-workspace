@@ -1,0 +1,17 @@
+#my-table {
+    width: 100%;
+    border:2px solid #000;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+#my-table th,td {
+    border:2px solid #000;
+    border-collapse: collapse;
+}
+
+#my-table td:hover {
+    background: #000;
+    color:#fff;
+    cursor:pointer;
+}
