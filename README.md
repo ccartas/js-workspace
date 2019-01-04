@@ -2,7 +2,7 @@
 
 ## Content
 
-- [Lab 01](https://github.com/ccartas/js-workspace/tree/master/lab_1);
+- [### Lab 01](https://github.com/ccartas/js-workspace/tree/master/lab_1)
     + [Simple Javascript Syntax](https://github.com/ccartas/js-workspace/tree/master/lab_1/js/simple.js);
     + [Hoising Mechanism](https://github.com/ccartas/js-workspace/tree/master/lab_1/js/hoisting.js);
     + [`undefined` value](https://github.com/ccartas/js-workspace/tree/master/lab_1/js/undefined.js);
